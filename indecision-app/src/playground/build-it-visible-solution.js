@@ -10,7 +10,7 @@ const render = () => {
     <div>
       <h1>Visibility Toggle</h1>
       <button onClick={toggleVisibility}>
-        {visibility ? 'Hide details' : 'Show details'}
+        {visibility ? "Hide details" : "Show details"}
       </button>
       {visibility && (
         <div>
@@ -20,7 +20,7 @@ const render = () => {
     </div>
   );
 
-  ReactDOM.render(jsx, document.getElementById('app'));
+  ReactDOM.render(jsx, document.getElementById("app"));
 };
 
 render();
